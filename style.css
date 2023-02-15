@@ -1,0 +1,120 @@
+* {
+    background: rgb(197, 212, 235);
+    font-family: inter;
+    font-weight:400;
+    font-size:24px;
+    font: height 150%;
+}
+.logoAlura{
+    margin-left:10px;
+    padding-top: 10px;
+    width:2%;
+    
+}
+main {
+    display:flex;
+    margin-bottom:50px;
+    margin-left:80px;
+}
+.text-area{
+    border-color:#11276e ;
+    border-radius: 24px;
+    background: white;
+    color:black;
+    margin-top:20px;
+    margin-left:70px;
+    padding-left:30px;
+    position: absolute;
+    text-transform:lowercase;
+    width:380px;
+    height:270px;
+
+    text-align: center;
+}
+ 
+ .mensagem{
+    background:white;
+    background-repeat: no-repeat;
+    border-color:#11276e;
+    border-radius:24px;
+    color: black ;
+    margin-left: 98px;
+    margin-top:20px;
+    padding-left:30px;
+    position:absolute;
+    width:380px;
+    height:270px;
+
+    text-align: center;
+    
+ }
+ .mensagem:focus{
+    display: flex;
+ }
+
+.btn-desencriptar {
+    background:#11276e;
+    border:1px solid #11276e;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height:50px;
+    margin-left:2px;
+    margin-top:1px;
+    width:200px;
+    
+}
+.btn-desencriptar:hover{
+    background:#273d85 ;
+    border: 1px solid;
+
+
+}
+.btn-encriptar{
+    background:#11276e;
+    border:1px solid #11276e;
+    border-radius: 24px;
+    color:white;
+    cursor:pointer;
+    height:50px;
+    width:200px;
+    margin-left:20px;
+    margin-top:1px;
+    margin-right:80px;
+
+}
+.btn-encriptar:hover{
+background:#273d85;
+border: 1px solid;
+
+}
+.btn-copiar{
+    background:#11276e ;
+    border:1px solid #11276e;
+    border-radius:24px;
+    color:white;
+    cursor:pointer;
+    height:50px;
+    margin-left:200px;
+    margin-top: 387px;
+    width:200px;
+
+
+}
+.btn-copiar:hover{
+    background-color: #273d85;
+    border:1px solid;
+}
+.informacao{
+    color: black;
+    font-size:16px;
+    margin-top:300px;
+    margin-left:100px;
+    padding: 10px 10px 10px 10px;
+}
+.rodape{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+    font-weight: bold;
+}
